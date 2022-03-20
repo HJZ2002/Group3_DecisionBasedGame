@@ -8,11 +8,14 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Play extends AppCompatActivity {
-    EditText username;
+    EditText username, password;
     Button button;
+
+
 
     String Name ="admin";
 
@@ -21,7 +24,7 @@ public class Play extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play);
         username =findViewById(R.id.Info);
-        button =findViewById(R.id.Enter);
+        button =findViewById(R.id.Register);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
