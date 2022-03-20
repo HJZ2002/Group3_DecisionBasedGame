@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group_DecisionBasedGame">
         <activity
+            android:name=".ChoiceD"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceC"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceB"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceAOutcome"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceA"
+            android:exported="false" />
+        <activity
             android:name=".MainStory"
             android:exported="false" />
         <activity
