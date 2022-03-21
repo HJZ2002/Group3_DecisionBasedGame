@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="68dp"
-        android:text="TextView"
+        android:text="Choose Among the 4 Choices"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/Choice1"
         app:layout_constraintEnd_toEndOf="@+id/Choice1"
