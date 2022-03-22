@@ -22,15 +22,8 @@ public class MainStory extends AppCompatActivity implements View.OnClickListener
         btn2 = findViewById(R.id.Choice2);
         btn3 = findViewById(R.id.Choice3);
         btn4 = findViewById(R.id.Choice4);
-        text = findViewById(R.id.textView4);
+        text = findViewById(R.id.choices);
 
-        String setting =
-                "In the magical kingdom of Arlenstein where humans and monsters exist,lived a tyrannical prince by the name of Cyneric Arlenstein who day by day oppressed his people." + " One day, while they we're preparing to fight. His father the King of Arlenstein, tossed him a dull blade and asked to fight his father to show what he was capable of. What will he do?\n" +
-                        "\n1.Training magic and swordsmanship under my father." +
-                        "\n2.Training independently in an isolated space." +
-                        "\n3.Speak and learn from the fellow members of Labyrist." +
-                        "\n4.Study in the great Arlestein Library in secret.";
-        text.setText(setting);
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
         btn3.setOnClickListener(this);
