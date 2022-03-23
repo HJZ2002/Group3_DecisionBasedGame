@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group_DecisionBasedGame">
         <activity
+            android:name=".Ending1"
+            android:exported="false" />
+        <activity
             android:name=".ChoiceD"
             android:exported="false" />
         <activity
@@ -32,9 +35,6 @@
             android:exported="false" />
         <activity
             android:name=".Quit"
-            android:exported="false" />
-        <activity
-            android:name=".Play"
             android:exported="false" />
         <activity
             android:name=".uidesign"

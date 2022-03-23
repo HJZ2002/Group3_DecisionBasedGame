@@ -19,7 +19,7 @@ public class uidesign extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(uidesign.this,Play.class);
+                Intent intent=new Intent(uidesign.this,Choices.class);
                 startActivity(intent);
             }
         });

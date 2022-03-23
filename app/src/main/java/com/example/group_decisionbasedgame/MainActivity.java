@@ -41,7 +41,7 @@ public class  MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(),uidesign.class));
 
                     }
-                },4000);
+                },3000);
             }
         });
     }

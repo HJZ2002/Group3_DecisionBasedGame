@@ -40,7 +40,7 @@ private Button next;
                         startActivity(new Intent(getApplicationContext(),MainStory.class));
 
                     }
-                },4000);
+                },3000);
             }
         });
     }

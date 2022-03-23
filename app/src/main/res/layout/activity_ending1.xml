@@ -4,46 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:background="@drawable/download"
-    tools:context=".ChoiceD">
+    android:background="@drawable/go_to_dungeon"
+    tools:context=".Ending1">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="142dp"
         android:text="play again"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView6" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
     <ScrollView
-        android:id="@+id/scrollView6"
+        android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="3dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="21dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/ChoiceD"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/Ending1"
             android:textAlignment="center"
             android:textSize="6.5pt"
-            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintBottom_toTopOf="@+id/button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.009" />
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

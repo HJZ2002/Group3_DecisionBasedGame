@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:background="@drawable/dadandson_training2"
     tools:context=".ChoiceA">
 
     <TextView
@@ -11,8 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="@string/ChoiceA"
         android:textAlignment="center"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/nextbtn1"
         app:layout_constraintStart_toStartOf="@+id/nextbtn1"
         app:layout_constraintTop_toTopOf="parent" />

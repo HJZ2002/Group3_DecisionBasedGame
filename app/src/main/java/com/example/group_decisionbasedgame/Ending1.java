@@ -8,17 +8,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ChoiceA extends AppCompatActivity implements View.OnClickListener{
+public class Ending1 extends AppCompatActivity implements View.OnClickListener {
     TextView text;
-    Button nxtbtn1;
+    Button button;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choice);
-        nxtbtn1 = findViewById(R.id.nextbtn1);
-        nxtbtn1.setOnClickListener(this);
-
+        setContentView(R.layout.activity_ending1);
+        button = findViewById(R.id.button);
+        button.setOnClickListener(this);
     }
 
     @Override
@@ -26,8 +25,8 @@ public class ChoiceA extends AppCompatActivity implements View.OnClickListener{
 
         switch (view.getId()) {
 
-            case R.id.nextbtn1:
-                Intent i1 = new Intent(this, Ending1.class);
+            case R.id.button:
+                Intent i1 = new Intent (this,uidesign.class);
                 startActivity(i1);
                 break;
         }
