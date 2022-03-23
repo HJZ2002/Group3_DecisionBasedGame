@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:background="@drawable/go_to_throneroom"
     tools:context=".ChoiceA">
 
     <Button
@@ -81,8 +83,8 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:text="@string/ChoiceAOutcome"
-            android:textSize="6.5pt"
             android:textAlignment="center"
+            android:textSize="6.5pt"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </ScrollView>
