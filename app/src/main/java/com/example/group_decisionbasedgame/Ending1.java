@@ -27,7 +27,7 @@ public class Ending1 extends AppCompatActivity implements View.OnClickListener {
         switch (view.getId()) {
 
             case R.id.button:
-                Intent i1 = new Intent (this,Play.class);
+                Intent i1 = new Intent (this,uidesign.class);
                 startActivity(i1);
                 break;
         }
