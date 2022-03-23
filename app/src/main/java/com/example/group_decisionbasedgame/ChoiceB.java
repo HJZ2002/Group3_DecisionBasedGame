@@ -26,7 +26,7 @@ public class ChoiceB extends AppCompatActivity implements View.OnClickListener {
         switch (view.getId()) {
 
             case R.id.button2:
-                Intent i2 = new Intent(this, Play.class);
+                Intent i2 = new Intent(this, uidesign.class);
                 startActivity(i2);
                 break;
         }
