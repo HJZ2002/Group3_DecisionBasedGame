@@ -4,31 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:background="@drawable/dadandson_training2"
     tools:context=".ChoiceA">
-
-    <TextView
-        android:id="@+id/ChoiceAOutcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/ChoiceA"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/nextbtn1"
-        app:layout_constraintStart_toStartOf="@+id/nextbtn1"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/nextbtn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:layout_marginBottom="265dp"
+        android:text="Go straight to the dungeon to free your mother first"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ChoiceAOutcome"
-        app:layout_constraintVertical_bias="0.55" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:text="Go straight to the throne room"
+        app:layout_constraintEnd_toEndOf="@+id/nextbtn2"
+        app:layout_constraintTop_toBottomOf="@+id/nextbtn2" />
+
+    <Button
+        android:id="@+id/nextbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="releasing the monsters locked up in the upper floors of the dungeon"
+        android:textSize="5pt"
+        app:layout_constraintStart_toStartOf="@+id/nextbtn1"
+        app:layout_constraintTop_toBottomOf="@+id/nextbtn1" />
+
+    <Button
+        android:id="@+id/nextbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Setting the barracks on fire"
+        app:layout_constraintStart_toStartOf="@+id/nextbtn"
+        app:layout_constraintTop_toBottomOf="@+id/nextbtn" />
+
+    <TextView
+        android:id="@+id/Choices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="Choose The Right Path!"
+        android:textSize="6.5pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/nextbtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextbtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/ChoiceAOutcome"
+            android:textSize="6.5pt"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

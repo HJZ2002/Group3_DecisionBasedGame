@@ -13,6 +13,9 @@
             android:name=".Ending1"
             android:exported="false" />
         <activity
+            android:name=".ChoiceAOutcome"
+            android:exported="false" />
+        <activity
             android:name=".ChoiceD"
             android:exported="false" />
         <activity
@@ -20,9 +23,6 @@
             android:exported="false" />
         <activity
             android:name=".ChoiceB"
-            android:exported="false" />
-        <activity
-            android:name=".ChoiceAOutcome"
             android:exported="false" />
         <activity
             android:name=".ChoiceA"
@@ -35,6 +35,9 @@
             android:exported="false" />
         <activity
             android:name=".Quit"
+            android:exported="false" />
+        <activity
+            android:name=".Play"
             android:exported="false" />
         <activity
             android:name=".uidesign"

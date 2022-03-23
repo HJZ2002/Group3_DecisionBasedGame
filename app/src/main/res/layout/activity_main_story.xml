@@ -10,56 +10,116 @@
         android:id="@+id/Choice1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
+        android:layout_marginTop="2dp"
         android:text="Choice A"
-        app:layout_constraintBottom_toTopOf="@+id/Choice2"
-        app:layout_constraintEnd_toEndOf="@+id/Choice2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/Choice2" />
+        app:layout_constraintEnd_toEndOf="@+id/choices"
+        app:layout_constraintStart_toStartOf="@+id/choices"
+        app:layout_constraintTop_toBottomOf="@+id/choiceA" />
 
     <Button
         android:id="@+id/Choice2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
         android:text="Choice B"
-        app:layout_constraintBottom_toTopOf="@+id/Choice3"
-        app:layout_constraintEnd_toEndOf="@+id/Choice3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/Choice3" />
+        app:layout_constraintStart_toStartOf="@+id/Choice1"
+        app:layout_constraintTop_toBottomOf="@+id/choiceB" />
 
     <Button
         android:id="@+id/Choice3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
+        android:layout_marginTop="3dp"
         android:text="Choice C"
-        app:layout_constraintBottom_toTopOf="@+id/Choice4"
-        app:layout_constraintEnd_toEndOf="@+id/Choice4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/Choice4" />
+        app:layout_constraintStart_toStartOf="@+id/Choice4"
+        app:layout_constraintTop_toBottomOf="@+id/choiceC" />
 
     <Button
         android:id="@+id/Choice4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="68dp"
+        android:layout_marginTop="28dp"
         android:text="Choice D"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Choice3" />
+
+    <TextView
+        android:id="@+id/choices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="Choose Among the 4 Choices"
+        android:textAlignment="center"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/choiceA"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/choiceA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="68dp"
-        android:text="Choose Among the 4 Choices"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/Choice1"
-        app:layout_constraintEnd_toEndOf="@+id/Choice1"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="@+id/Choice1" />
+        android:text="Training magic and swordsmanship under my father"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choiceB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Training independently in an isolated space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Choice1" />
+
+    <TextView
+        android:id="@+id/choiceC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="9dp"
+        android:text="Speak and learn from the fellow members of Labyrist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Choice2" />
+
+    <TextView
+        android:id="@+id/choiceD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study in the great Arlestein Library in secret"
+        app:layout_constraintBottom_toTopOf="@+id/Choice4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/choices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/firststory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FirstPart"
+            android:textAlignment="center"
+            android:textSize="6.5pt"
+            app:layout_constraintStart_toStartOf="@+id/scrollView8"
+            app:layout_constraintTop_toTopOf="@+id/scrollView8" />
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
