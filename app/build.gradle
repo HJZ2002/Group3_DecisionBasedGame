@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.group_decisionbasedgame"
+        applicationId "com.example.group3_decisionbasedgame"
         minSdk 21
         targetSdk 32
         versionCode 1

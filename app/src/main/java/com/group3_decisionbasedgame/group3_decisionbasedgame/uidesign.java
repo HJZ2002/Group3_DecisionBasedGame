@@ -1,4 +1,4 @@
-package com.example.group_decisionbasedgame;
+package com.group3_decisionbasedgame.group3_decisionbasedgame;
 
 import androidx.appcompat.app.AppCompatActivity;
 

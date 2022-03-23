@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.group_decisionbasedgame">
+    package="com.group3_decisionbasedgame.group3_decisionbasedgame">
 
     <application
         android:allowBackup="true"
@@ -10,40 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Group_DecisionBasedGame">
         <activity
-            android:name=".Ending1"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.Ending1"
             android:exported="false" />
         <activity
-            android:name=".ChoiceAOutcome"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.ChoiceAOutcome"
             android:exported="false" />
         <activity
-            android:name=".ChoiceD"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.ChoiceD"
             android:exported="false" />
         <activity
-            android:name=".ChoiceC"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.ChoiceC"
             android:exported="false" />
         <activity
-            android:name=".ChoiceB"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.ChoiceB"
             android:exported="false" />
         <activity
-            android:name=".ChoiceA"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.ChoiceA"
             android:exported="false" />
         <activity
-            android:name=".MainStory"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.MainStory"
             android:exported="false" />
         <activity
-            android:name=".Choices"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.Choices"
             android:exported="false" />
         <activity
-            android:name=".Quit"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.Quit"
             android:exported="false" />
         <activity
             android:name=".Play"
             android:exported="false" />
         <activity
-            android:name=".uidesign"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.uidesign"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.group3_decisionbasedgame.group3_decisionbasedgame.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

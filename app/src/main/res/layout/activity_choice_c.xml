@@ -39,6 +39,7 @@
             android:layout_marginTop="1dp"
             android:text="@string/ChoiceC"
             android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="6.5pt"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

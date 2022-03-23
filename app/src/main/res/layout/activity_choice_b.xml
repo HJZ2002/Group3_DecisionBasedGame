@@ -40,6 +40,7 @@
             android:layout_marginTop="2dp"
             android:text="@string/ChoiceB"
             android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="6.5pt"
             app:layout_constraintBottom_toTopOf="@+id/button2"
             app:layout_constraintStart_toStartOf="parent"
