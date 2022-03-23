@@ -27,7 +27,7 @@ public class ChoiceC extends AppCompatActivity implements View.OnClickListener {
         switch (view.getId()) {
 
             case R.id.button3:
-                Intent i3 = new Intent(this, Play.class);
+                Intent i3 = new Intent(this, uidesign.class);
                 startActivity(i3);
                 break;
         }
